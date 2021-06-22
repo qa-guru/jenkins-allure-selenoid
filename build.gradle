@@ -64,3 +64,9 @@ task owner_test(type: Test) {
         includeTags 'owner'
     }
 }
+
+task fake_test(type: Test) {
+    useJUnitPlatform {
+        includeTags 'fake'
+    }
+}
